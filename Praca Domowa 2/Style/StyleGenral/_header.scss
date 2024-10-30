@@ -1,0 +1,30 @@
+.header {
+  width: 100vw;
+  background-color: rgb(21, 151, 21);
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0;
+
+  &__menu {
+
+    &:hover {
+      background-color: rgb(14, 168, 0);
+    }
+
+    &--text {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 7vw;
+
+      h1 {
+        margin: 0;
+        padding: 0;
+        color: white;
+        font-size: 1.5em;
+      }
+    }
+  }
+}
